@@ -253,7 +253,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
 }
 .drawer-close {
-  position: fixed;     /* changed from absolute */
+  position: absolute;     /* changed from absolute */
   top: 16px;
   right: 16px;
   background: none;
