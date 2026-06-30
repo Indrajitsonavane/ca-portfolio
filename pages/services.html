@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CHANGE: Update firm name -->
+  <title>Services | Gursale & Company </title>
+  <meta name="description" content="Comprehensive CA services: Audit, Tax, GST, Accounting, Project Finance, Corporate Governance and more." />
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (same across all pages) -->
+  <header class="navbar scrolled" id="navbar">
+    <div class="container nav-inner">
+      <a href="../index.html" class="brand">
+        <img src="../images/logo.png" alt="CA Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="firm-name">Gursale & Company</span><!-- CHANGE: Firm name -->
+          <span class="firm-tagline">Chartered Accountants</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a><a href="about.html">About</a>
+        <div class="dropdown"><a href="services.html" class="active">Services</a>
+          <div class="dropdown-menu">
+            <a href="#audit">Audit & Assurance</a><a href="#tax">Direct Tax</a>
+            <a href="#gst">GST Services</a><a href="#accounting">Accounting</a>
+            <a href="#finance">Project Finance</a><a href="#corporate">Corporate Governance</a>
+          </div>
+        </div>
+        <a href="useful-links.html">Useful Links</a><a href="contact.html">Contact</a>
+      </nav>
+      <a href="tel:+9186248 36206" class="btn btn-outline nav-cta"><i class="fas fa-phone"></i> +91 86248 36206</a><!-- CHANGE: Phone -->
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-inner">
+      <button class="drawer-close" id="drawer-close"><i class="fas fa-times"></i></button>
+      <a href="../index.html" class="drawer-link">Home</a><a href="about.html" class="drawer-link">About</a>
+      <a href="services.html" class="drawer-link">Services</a><a href="team.html" class="drawer-link">Team</a>
+      <a href="news.html" class="drawer-link">News</a><a href="useful-links.html" class="drawer-link">Useful Links</a>
+      <a href="contact.html" class="drawer-link">Contact</a>
+      <a href="tel:+9186248 36206" class="btn btn-primary drawer-cta">Call Us Now</a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <!-- CHANGE: Update page title and subtitle -->
+    <h1>Our Services</h1>
+    <p>Comprehensive financial and compliance solutions for every business need</p>
+    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><span>Services</span></div>
+  </section>
+
+  <!-- SERVICES INTRO -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="section-header reveal" style="max-width:800px">
+        <div class="section-eyebrow">What We Offer</div>
+        <h2 class="section-title">Expert Services Across All <span class="accent">Financial Domains</span></h2>
+        <div class="section-divider"></div>
+        <!-- CHANGE: Update subtitle -->
+        <p class="section-sub">From routine compliance to complex advisory, our team of qualified Chartered Accountants delivers precision, speed and integrity across every engagement.</p>
+      </div>
+
+      <!-- AUDIT & ASSURANCE -->
+      <div id="audit" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--blue-light);color:var(--blue);"><i class="fas fa-search-dollar"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">Audit & Assurance</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <!-- CHANGE: Update each service sub-card (icon, title, description, bullet points) -->
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-building"></i></div>
+              <h3>Company Audits</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Statutory audit of companies as per the Companies Act, 2013. We ensure compliance with applicable accounting standards and provide an independent opinion on financial statements.</p>
+              <ul class="service-ul">
+                <li>Statutory Audit under Companies Act, 2013</li>
+                <li>Audit of financial statements per Ind AS / AS</li>
+                <li>Audit report and management letter</li>
+                <li>Review of internal controls and processes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-file-alt"></i></div>
+              <h3>Tax Audits</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Mandatory tax audit under Section 44AB of the Income Tax Act for businesses and professionals meeting prescribed turnover thresholds.</p>
+              <ul class="service-ul">
+                <li>Tax Audit under Sec 44AB of Income Tax Act</li>
+                <li>Form 3CA/3CB and 3CD preparation</li>
+                <li>ICAI standards compliance</li>
+                <li>Timely filing before due dates</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-university"></i></div>
+              <h3>Bank Audits</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Statutory and concurrent audits of bank branches and concurrent audit of PSU / private sector banks. Empanelled with leading nationalised and private banks.</p>
+              <ul class="service-ul">
+                <li>Statutory Branch Audit of Banks</li>
+                <li>Concurrent Audit of Bank Branches</li>
+                <li>Stock audit and NPA verification</li>
+                <li>Revenue audit and credit audit</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-boxes"></i></div>
+              <h3>Stock Audits</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Physical verification and valuation of stock on behalf of banks and financial institutions for borrower accounts.</p>
+              <ul class="service-ul">
+                <li>Physical stock verification</li>
+                <li>Inventory reconciliation</li>
+                <li>Stock valuation as per bank norms</li>
+                <li>Audit report to bank / institution</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIRECT TAX -->
+      <div id="tax" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--orange-light);color:var(--orange);"><i class="fas fa-file-invoice-dollar"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">Direct Tax</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-calculator"></i></div>
+              <h3>Income Tax Compliances</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Comprehensive income tax compliance for individuals, HUFs, companies, firms, trusts, and other entities including return filing and advance tax computation.</p>
+              <ul class="service-ul">
+                <li>ITR filing for all categories of assesses</li>
+                <li>Advance tax computation and payment</li>
+                <li>Form 15CA/15CB for foreign remittances</li>
+                <li>Income tax planning and advisory</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-percentage"></i></div>
+              <h3>TDS Compliances</h3>
+            </div>
+            <div class="service-card-body">
+              <p>End-to-end TDS management including deduction, deposit, quarterly returns and issuance of TDS certificates.</p>
+              <ul class="service-ul">
+                <li>TDS deduction and deposit advice</li>
+                <li>Quarterly TDS returns (24Q, 26Q, 27Q, 27EQ)</li>
+                <li>Form 16 / 16A issuance</li>
+                <li>TDS reconciliation and demand resolution</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-gavel"></i></div>
+              <h3>Appellate Litigations</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Expert representation before CIT(A), ITAT, High Court, and other tax authorities for assessment and appeal proceedings.</p>
+              <ul class="service-ul">
+                <li>Representation before AO, CIT(A), ITAT</li>
+                <li>Assessment and re-assessment proceedings</li>
+                <li>Filing appeals, objections and petitions</li>
+                <li>Settlement Commission proceedings</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-chess"></i></div>
+              <h3>Tax Structuring</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Strategic tax planning and structuring for businesses, M&A transactions, family succession, and investments to achieve optimal tax efficiency.</p>
+              <ul class="service-ul">
+                <li>Business tax structure optimisation</li>
+                <li>M&A tax due diligence and structuring</li>
+                <li>Family succession & estate planning</li>
+                <li>Investment and salary structuring</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GST -->
+      <div id="gst" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--green-light);color:var(--green);"><i class="fas fa-receipt"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">GST Services</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-clipboard-check"></i></div>
+              <h3>GST Compliance</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Complete GST compliance management including registration, return filing, reconciliation, and annual return.</p>
+              <ul class="service-ul">
+                <li>GST registration (regular, composition, TDS/TCS)</li>
+                <li>Monthly / quarterly GST return filing (GSTR-1, 3B)</li>
+                <li>Annual return (GSTR-9) and audit (GSTR-9C)</li>
+                <li>Input tax credit reconciliation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-balance-scale"></i></div>
+              <h3>GST Litigations</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Representation before GST authorities for notices, audits, assessments, and appellate proceedings at all levels.</p>
+              <ul class="service-ul">
+                <li>Response to GST notices and show cause notices</li>
+                <li>Representation before GST Officer, Appellate Authority</li>
+                <li>Advance ruling applications</li>
+                <li>Refund claims and follow-up</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACCOUNTING -->
+      <div id="accounting" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--blue-light);color:var(--blue);"><i class="fas fa-book"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">Accounting Services</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-pen"></i></div>
+              <h3>Bookkeeping Services</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Accurate, timely bookkeeping and accounting services using modern cloud-based software like Tally, QuickBooks, and Zoho Books.</p>
+              <ul class="service-ul">
+                <li>Day-to-day accounts entry and maintenance</li>
+                <li>Bank reconciliation and ledger management</li>
+                <li>Payroll processing and salary register</li>
+                <li>Monthly MIS and financial reports</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--blue-light);">
+              <div class="service-icon-lg" style="background:var(--blue);color:#fff;"><i class="fas fa-check-double"></i></div>
+              <h3>Review of Bookkeeping</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Independent review and clean-up of existing books of accounts to ensure accuracy, completeness, and compliance.</p>
+              <ul class="service-ul">
+                <li>Verification of books maintained by client's staff</li>
+                <li>Error detection and correction</li>
+                <li>Finalization of accounts for audit</li>
+                <li>Financial statement preparation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT FINANCE -->
+      <div id="finance" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--orange-light);color:var(--orange);"><i class="fas fa-chart-line"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">Project Finance</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-file-contract"></i></div>
+              <h3>Project Reports</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Detailed project reports (DPR) and CMA data for new businesses, expansions, and bank loan purposes.</p>
+              <ul class="service-ul">
+                <li>Detailed Project Report (DPR) preparation</li>
+                <li>CMA data for bank financing</li>
+                <li>Financial projections and feasibility</li>
+                <li>Ratio analysis and break-even calculations</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--orange-light);">
+              <div class="service-icon-lg" style="background:var(--orange);color:#fff;"><i class="fas fa-hand-holding-usd"></i></div>
+              <h3>Assistance in Bank Finance</h3>
+            </div>
+            <div class="service-card-body">
+              <p>End-to-end assistance in arranging term loans, working capital facilities, and other credit facilities from banks and NBFCs.</p>
+              <ul class="service-ul">
+                <li>Loan application preparation and submission</li>
+                <li>Liaison with banks and financial institutions</li>
+                <li>Working capital assessment</li>
+                <li>Renewal of credit facilities</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CORPORATE GOVERNANCE -->
+      <div id="corporate" style="margin-bottom:64px;">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;" class="reveal">
+          <div class="service-icon-lg" style="background:var(--green-light);color:var(--green);"><i class="fas fa-building"></i></div>
+          <div>
+            <div class="section-eyebrow" style="margin:0 0 4px">Service Category</div>
+            <h2 style="font-family:var(--font-display);font-size:1.75rem;color:var(--dark);">Corporate Governance</h2>
+          </div>
+        </div>
+        <div class="services-full-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-registered"></i></div>
+              <h3>Company Formation</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Complete assistance in incorporation of companies — private limited, public limited, Section 8, OPC, etc.</p>
+              <ul class="service-ul">
+                <li>Name approval and DIN/DSC</li>
+                <li>MOA, AOA drafting and filing</li>
+                <li>Certificate of Incorporation</li>
+                <li>Post-incorporation compliances</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-handshake"></i></div>
+              <h3>LLP Formation</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Assistance in formation and annual compliance of Limited Liability Partnerships (LLPs) under the LLP Act, 2008.</p>
+              <ul class="service-ul">
+                <li>LLP name reservation and DPIN</li>
+                <li>LLP Agreement drafting</li>
+                <li>LLP Incorporation filing (Form FiLLiP)</li>
+                <li>Annual compliance (Form 11, Form 8)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-search"></i></div>
+              <h3>Internal Audits</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Risk-based internal audit to assess the adequacy and effectiveness of internal controls, governance, and risk management processes.</p>
+              <ul class="service-ul">
+                <li>Internal audit planning and execution</li>
+                <li>Process and system evaluation</li>
+                <li>Fraud risk assessment</li>
+                <li>Internal audit report with recommendations</li>
+              </ul>
+            </div>
+          </div>
+          <div class="service-detail-card reveal reveal-delay-1">
+            <div class="service-card-header" style="background:var(--green-light);">
+              <div class="service-icon-lg" style="background:var(--green);color:#fff;"><i class="fas fa-balance-scale-right"></i></div>
+              <h3>Arbitration & Managerial</h3>
+            </div>
+            <div class="service-card-body">
+              <p>Expert services in arbitration, conciliation, and management consulting for businesses facing disputes or operational challenges.</p>
+              <ul class="service-ul">
+                <li>Arbitration and conciliation proceedings</li>
+                <li>Business process consulting</li>
+                <li>MIS reporting and budgeting</li>
+                <li>Financial restructuring advisory</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container" style="text-align:center;position:relative;z-index:1;">
+      <h2 class="reveal" style="font-family:var(--font-display);font-size:clamp(1.75rem,3vw,2.25rem);color:#fff;margin-bottom:16px;">
+        <!-- CHANGE: Update CTA text -->
+        Need a Specific Service? Let's Talk.
+      </h2>
+      <p class="reveal reveal-delay-1" style="color:rgba(255,255,255,0.85);margin-bottom:32px;">Contact us for a free initial consultation on any of the services above.</p>
+      <div class="reveal reveal-delay-2" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="contact.html" class="btn btn-white">Contact Us</a>
+        <a href="tel:+9186248 36206" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.6);"><i class="fas fa-phone"></i> Call Now</a><!-- CHANGE: Phone -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../images/logo.png" alt="CA Logo" class="footer-logo" />
+        <p class="footer-about">Gursale & Company — Trusted Chartered Accountants committed to ethical and expert financial services.</p><!-- CHANGE -->
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links"><h5>Quick Links</h5><ul>
+        <li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+       <a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-services"><h5>Services</h5><ul>
+        <li><a href="#audit">Audit & Assurance</a></li><li><a href="#tax">Direct Tax</a></li>
+        <li><a href="#gst">GST Services</a></li><li><a href="#accounting">Accounting</a></li>
+        <li><a href="#finance">Project Finance</a></li><li><a href="#corporate">Corporate Governance</a></li>
+      </ul></div>
+      <div class="footer-contact"><h5>Contact</h5>
+        <p><i class="fas fa-map-marker-alt"></i>GC 1763, Koyananagar,Shastrinagar,Malkapur, Karad – 415110, Maharashtra, India</p><!-- CHANGE -->
+        <p><i class="fas fa-phone"></i> <a href="tel:+9186248 36206">+91 86248 36206</a></p><!-- CHANGE -->
+        <p><i class="fas fa-envelope"></i> <a href="mailto:gursaleandcompany@rediffmail.com">gursaleandcompany@rediffmail.com</a></p><!-- CHANGE -->
+        <p><i class="fas fa-clock"></i> Mon–Sat: 10AM – 6PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">
+      <p>&copy; 2025 Gursale & Company All Rights Reserved.</p><!-- CHANGE -->
+    </div></div>
+  </footer>
+
+    <!-- CHANGE: Update WhatsApp number -->
+  <a href="https://wa.me/9422022736" target="_blank" rel="noopener" style="position:fixed;bottom:90px;right:28px;width:52px;height:52px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.5rem;box-shadow:0 4px 16px rgba(37,211,102,0.4);z-index:997;transition:transform 0.26s ease;" aria-label="WhatsApp" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i class="fab fa-whatsapp"></i></a>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="../js/main.js"></script>
+</body>
+</html>

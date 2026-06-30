@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CHANGE: Update firm name -->
+  <title>Contact Us | Gursale & Company</title>
+  <meta name="description" content="Get in touch with Your CA Firm for Audit, Tax, GST and financial advisory services." />
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 90px;
+      right: 28px;
+      width: 52px; height: 52px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 1.5rem;
+      box-shadow: 0 4px 16px rgba(37,211,102,0.4);
+      z-index: 997;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 8px 28px rgba(37,211,102,0.5); }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar scrolled" id="navbar">
+    <div class="container nav-inner">
+      <a href="../index.html" class="brand">
+        <img src="../images/logo.png" alt="CA Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="firm-name">Gursale & Company</span><!-- CHANGE: Firm name -->
+          <span class="firm-tagline">Chartered Accountants</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a><a href="about.html">About</a>
+        <div class="dropdown"><a href="services.html">Services</a>
+          <div class="dropdown-menu">
+            <a href="services.html#audit">Audit & Assurance</a><a href="services.html#tax">Direct Tax</a>
+            <a href="services.html#gst">GST Services</a><a href="services.html#accounting">Accounting</a>
+            <a href="services.html#finance">Project Finance</a><a href="services.html#corporate">Corporate Governance</a>
+          </div>
+        </div>
+        <a href="useful-links.html">Useful Links</a><a href="contact.html" class="active">Contact</a>
+       
+      </nav>
+      <a href="tel:+9186248 36206" class="btn btn-outline nav-cta"><i class="fas fa-phone"></i> +91 86248 36206</a><!-- CHANGE: Phone -->
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-inner">
+      <button class="drawer-close" id="drawer-close"><i class="fas fa-times"></i></button>
+      <a href="../index.html" class="drawer-link">Home</a><a href="about.html" class="drawer-link">About</a>
+      <a href="services.html" class="drawer-link">Services</a><a href="team.html" class="drawer-link">Team</a>
+      <a href="news.html" class="drawer-link">News</a><a href="useful-links.html" class="drawer-link">Useful Links</a>
+      <a href="contact.html" class="drawer-link">Contact</a>
+      <a href="tel:+9186248 36206" class="btn btn-primary drawer-cta">Call Us Now</a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <h1>Contact Us</h1><!-- CHANGE -->
+    <p>Reach out for a free initial consultation — we'd love to help</p>
+    <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><span>Contact</span></div>
+  </section>
+
+  <!-- CONTACT INFO + FORM -->
+  <section class="section-pad">
+    <div class="container contact-page-wrap">
+
+      <!-- LEFT: Contact Info -->
+      <div class="reveal">
+        <div class="section-eyebrow">Get In Touch</div>
+        <h2 class="section-title" style="text-align:left;">We're Here to Help</h2>
+        <!-- CHANGE: Update contact description -->
+        <p class="contact-desc">
+          Have a query about tax, GST, audit, or any other service? Fill in the form or reach out
+          directly — our team responds within 24 business hours.
+        </p>
+
+        <div class="contact-items">
+
+          <!-- CHANGE: Update address -->
+          <div class="contact-item">
+            <div class="contact-icon blue-bg"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Office Address</strong>
+              <p>
+                <!-- CHANGE: Update with your actual office address -->
+                GC 1763, Koyananagar,<br/>
+                Shastrinagar, Malkapur, <br/>
+                Karad – 415110, Maharashtra, India
+              </p>
+            </div>
+          </div>
+
+          <!-- CHANGE: Update phone numbers -->
+          <div class="contact-item">
+            <div class="contact-icon orange-bg"><i class="fas fa-phone"></i></div>
+            <div>
+              <strong>Phone Numbers</strong>
+              <p>
+                <a href="tel:+9186248 36206">+91 86248 36206</a> (Mobile)<br/>
+                <a href="tel:+912012345678">+91 02164-225687</a> (Landline)
+              </p>
+            </div>
+          </div>
+
+          <!-- CHANGE: Update email addresses -->
+          <div class="contact-item">
+            <div class="contact-icon green-bg"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email Addresses</strong>
+              <p>
+                <a href="mailto:gursaleandcompany@rediffmail.com">gursaleandcompany@rediffmail.com</a> (General)<br/>
+                <a href="mailto:ca@yourfirm.com">ca@yourfirm.com</a> (CA Queries)
+              </p>
+            </div>
+          </div>
+
+          <!-- CHANGE: Update WhatsApp number (format: country code + number, no +) -->
+          <div class="contact-item">
+            <div class="contact-icon" style="background:#25D366;"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p><a href="https://wa.me/9186248 36206" target="_blank" rel="noopener">+91 86248 36206</a><br/>Chat with us directly</p>
+            </div>
+          </div>
+
+          <!-- CHANGE: Update working hours -->
+          <div class="contact-item">
+            <div class="contact-icon blue-bg"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Office Hours</strong>
+              <p>
+                Monday – Friday: 10:00 AM – 6:00 PM<br/>
+                Saturday: 10:00 AM – 5:00 PM<br/>
+                Sunday: By Appointment Only
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social links -->
+        <div style="margin-top:28px;">
+          <strong style="font-size:0.875rem;color:var(--dark-2);display:block;margin-bottom:12px;">Connect on Social Media</strong>
+          <div class="team-social">
+            <!-- CHANGE: Update social links -->
+            <a href="#" style="width:40px;height:40px;" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="width:40px;height:40px;" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" style="width:40px;height:40px;" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="width:40px;height:40px;" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: Contact Form -->
+      <div class="contact-form-wrap reveal reveal-delay-1">
+        <h3 class="form-heading">Send Us a Message</h3>
+        <p style="font-size:0.875rem;color:var(--gray);margin-bottom:24px;">
+          <!-- CHANGE: Update form intro -->
+          Fill in the form below and we'll get back to you within 24 hours.
+        </p>
+
+        <!-- ============================================================
+             FORM SETUP
+             CHANGE: Update form action for your backend:
+             Option 1 — Formspree (free):
+               1. Sign up at https://formspree.io
+               2. Create a new form
+               3. Replace action="#" with action="https://formspree.io/f/YOUR_FORM_ID"
+               4. Add method="POST"
+             Option 2 — Web3Forms (free):
+               1. Get access key at https://web3forms.com
+               2. Add hidden input: <input type="hidden" name="access_key" value="YOUR_KEY">
+               3. Set action="https://api.web3forms.com/submit" method="POST"
+             ============================================================ -->
+        <form class="contact-form" id="contact-form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <!-- CHANGE: Update placeholder format -->
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <!-- CHANGE: Update service dropdown options to match your offerings -->
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service" name="service">
+              <option value="">— Select a Service —</option>
+              <option>Audit & Assurance</option>
+              <option>Income Tax / Direct Tax</option>
+              <option>GST Services</option>
+              <option>Accounting Services</option>
+              <option>Project Finance</option>
+              <option>Corporate Governance / Company Formation</option>
+              <option>LLP Formation</option>
+              <option>Arbitration Services</option>
+              <option>Other / General Query</option>
+            </select>
+          </div>
+
+          <!-- CHANGE: Add/remove fields as needed -->
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Your City" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Please briefly describe your requirement or query..." required></textarea>
+          </div>
+
+          <!-- CHANGE: Update button text -->
+          <button type="submit" class="btn btn-primary full-width">
+            Send Message &nbsp;<i class="fas fa-paper-plane"></i>
+          </button>
+
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GOOGLE MAP -->
+  <!-- ============================================================
+       CHANGE: Replace the iframe src below with your Google Maps embed URL.
+       How to get it:
+       1. Go to https://maps.google.com
+       2. Search your office address
+       3. Click Share → Embed a map
+       4. Copy the URL inside src="..."
+       ============================================================ -->
+  <div class="map-wrap">
+    <iframe
+      title="Our Office Location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.11302884152!2d73.72454854765626!3d18.524870289693216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000"
+      width="100%"
+      height="420"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- OFFICE HOURS + EXTRA INFO -->
+  <section class="section-pad bg-light">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;">
+
+        <div class="why-card reveal" style="text-align:left;">
+          <div class="why-icon blue-bg" style="margin:0 0 16px;"><i class="fas fa-car"></i></div>
+          <h4>How to Reach Us</h4>
+          <!-- CHANGE: Update directions / nearest landmarks -->
+          <p>We are located Malkapur karad . Parking available in the building basement. Nearest bus stop: Karad St Stand . Nearest railway: karad Station (3.5 km).</p>
+        </div>
+
+        <div class="why-card reveal reveal-delay-1" style="text-align:left;">
+          <div class="why-icon orange-bg" style="margin:0 0 16px;"><i class="fas fa-calendar-check"></i></div>
+          <h4>Appointment Booking</h4>
+          <!-- CHANGE: Update appointment info -->
+          <p>For in-person consultations, please call or WhatsApp us in advance to book an appointment. Walk-ins are welcome during office hours but appointment holders get priority.</p>
+        </div>
+<!-- 
+        <div class="why-card reveal reveal-delay-2" style="text-align:left;">
+          <div class="why-icon green-bg" style="margin:0 0 16px;"><i class="fas fa-video"></i></div>
+          <h4>Virtual Consultations</h4>
+                    //// CHANGE: Update virtual consultation details 
+          <p>Can't visit in person? We offer video consultations via Google Meet or Zoom. Request a virtual meeting through the contact form and we'll schedule at your convenience.</p>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../images/logo.png" alt="CA Logo" class="footer-logo" />
+        <p class="footer-about">Gursale & Company— Trusted Chartered Accountants committed to ethical financial services.</p><!-- CHANGE -->
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links"><h5>Quick Links</h5><ul>
+        <li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul></div>
+      <div class="footer-services"><h5>Services</h5><ul>
+        <li><a href="services.html#audit">Audit & Assurance</a></li>
+        <li><a href="services.html#tax">Direct Tax</a></li>
+        <li><a href="services.html#gst">GST Services</a></li>
+        <li><a href="services.html#accounting">Accounting</a></li>
+        <li><a href="services.html#finance">Project Finance</a></li>
+        <li><a href="services.html#corporate">Corporate Governance</a></li>
+      </ul></div>
+      <div class="footer-contact"><h5>Contact</h5>
+        <p><i class="fas fa-map-marker-alt"></i>GC 1763, Koyananagar,Shastrinagar,Malkapur, Karad – 415110, Maharashtra, India</p><!-- CHANGE -->
+        <p><i class="fas fa-phone"></i> <a href="tel:+9186248 36206">+91 86248 36206</a></p><!-- CHANGE -->
+        <p><i class="fas fa-envelope"></i> <a href="mailto:info@yourfirm.com">gursaleandcompany@rediffmail.com</a></p><!-- CHANGE -->
+        <p><i class="fas fa-clock"></i> Mon–Sat: 10AM – 6PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container">
+      <p>&copy; 2025 Gursale & Company All Rights Reserved.</p><!-- CHANGE -->
+    </div></div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <!-- CHANGE: Update WhatsApp number in href (919876543210 = 91 + your number without 0) -->
+  <a href="https://wa.me/9186248 36206" target="_blank" rel="noopener" class="whatsapp-float" aria-label="WhatsApp us">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <button class="scroll-top" id="scroll-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="../js/main.js"></script>
+</body>
+</html>
