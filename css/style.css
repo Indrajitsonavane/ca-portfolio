@@ -250,13 +250,27 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   gap: 8px;
   padding: 24px;
   width: 100%;
+  position: relative;
 }
 .drawer-close {
   position: absolute;
-  top: 24px; right: 24px;
-  color: var(--blue);
-  font-size: 1.5rem;
-  padding: 8px;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+
+.drawer-close i.fa-times {
+  pointer-events: none; /* clicks go to the button, not the icon */
 }
 .drawer-link {
   color: var(--dark);
